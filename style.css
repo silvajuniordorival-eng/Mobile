@@ -1,0 +1,71 @@
+h1 {
+    margin: 30px;
+}
+
+#banner {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missão {
+    font-size: 20px;
+    font-style: italic;
+}
+
+em {
+    color: rgb(255, 0, 0);
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#beneficios {
+    width: 50%;
+
+}
+
+.principal {
+    padding: 20px;
+}
+
+.beneficios {
+    padding: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 1cm 0 0 0;
+    padding: 0 30 px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #8B4513;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    font-size: 31px;
+    color: #CD853F;
+}
+
+footer {
+    text-align: center;
+    background: url(https://github.com/dgouvvea/Img/blob/main/A/bg.jpg?raw=true);
+    padding: 20px;
+    color: white;
+}
