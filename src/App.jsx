@@ -1,23 +1,23 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import functionalComponent from './component/functionalComponent'
-
+import FunctionalComponent from './Components/FunctionalComponent'
+import FunçoesClasses from './Components/FuncoesClasses'
+import FuncaoProps from './Components/FuncaoProps'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Alo mundo</h1>
-     <functionalComponent/>
+      <div id="area">
+      <h1>Alo Mundo</h1>
+      <img className='titulo' src="https://github.com/dgouvvea/Img/blob/main/RN/RNc.png?raw=true" alt="Logo React Nativea" />
 
-
-
-
-
-
-     
+      <FunctionalComponent />
+      <FunçoesClasses />
+      <FuncaoProps />
+      
+      <img src="https://github.com/dgouvvea/Img/blob/main/RN/RNr.png?raw=true" alt="" className="rodape" />
+    </div>
     </>
   )
 }
