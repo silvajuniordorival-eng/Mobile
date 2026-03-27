@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Lazarus (2.2.0)
+Comment=Lazarus IDE (2.2.0)
+Exec=startlazarus-2.2.0 %f
+Terminal=false
+Type=Application
+Icon=lazarus-2.2.0
+Categories=IDE;Development;GTK;GUIDesigner;
+StartupWMClass=Lazarus (2.2.0)
+MimeType=text/x-pascal;text/lazarus-project-source;text/lazarus-project-information;text/lazarus-form;text/lazarus-resource;text/lazarus-package;text/lazarus-package-link;text/lazarus-code-inlay;
+Keywords=editor;Pascal;IDE;FreePascal;fpc;Design;Designer;
