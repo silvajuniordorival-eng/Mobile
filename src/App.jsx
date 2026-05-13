@@ -1,16 +1,19 @@
 import { useState } from 'react'
 import './App.css'
-import Convite from './components/convite'
+import Convite from './Components/Convite'
+import Contatos from './Components/Contatos'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="tela">
+    <section id="tela">
+      <Convite />
+      <Contatos />
 
-        <Convite />
-      </div>
+
+    </section>
     </>
   )
 }

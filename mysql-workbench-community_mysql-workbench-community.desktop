@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-SnapInstanceName=mysql-workbench-community
+Name=MySQL Workbench
+Comment=MySQL Database Design, Administration and Development Tool
+X-SnapAppName=mysql-workbench-community
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/mysql-workbench-community_mysql-workbench-community.desktop /snap/bin/mysql-workbench-community %f
+Terminal=false
+Type=Application
+Icon=/snap/mysql-workbench-community/13/meta/gui/icon.png
+MimeType=application/vnd.mysql-workbench-model;application/sql;
+Categories=GTK;Database;Development;
+StartupWMClass=mysql-workbench-bin
+
