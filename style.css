@@ -1,7 +1,82 @@
-html, body {
-  margin: 0;
-  padding: 0;
+/*Conffigurações globais (Reset)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /*Fonte que preferir*/
 }
-canvas {
-  display: block;
+body{
+    background: linear-gradient(135deg,#0b0114 0%, #170235 50%,#031540 100%);
+    color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.app{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+/*Logo*/
+.app__logo{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.app__logo span{
+    font-weight: 700;
+    color: #a370f7;
+}
+/*Layout e duas colunas */
+.app__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.app__section-texto{
+    flex: 1;
+    min-width: 320px;
+}
+.app__titulo{
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+/*Container da imagem com formato fluido (Blob)*/
+.app__section-imagem{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+}
+.imagem-container{
+    width: 400px;
+    height: 400px;
+    /*Ese border-radius asimétrico cria efeito orgânico da bolha da imagem original*/
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    overflow: hidden;
+    background: linear-gradient(45deg, #a370f7,#170235);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.app__imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: luminosity;/*Dá um tom conceitual à foto*/
+    opacity: 0.85;
+}
+/*Painel e filtros inferior*/
+.app__painel-filtros{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgda(255,255,255,0.1);
+    border-radius: 32px;
 }
